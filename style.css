@@ -1,0 +1,117 @@
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.lexend-deca-regular {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {}
+
+section {
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: hsl(244, 37%, 16%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    width: 1110px;
+    height: 446px;
+    /* border: 1px solid rgb(9, 255, 0); */
+    padding-left: 72px;
+    overflow: hidden;
+}
+
+div.info {
+    max-width: 405px;
+    /* padding: 70px 95px 60px 72px; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+article h2 span {
+    color: rgb(170, 92, 219);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 25 px;
+    margin: 0;
+    margin-bottom: 72px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 63px;
+    margin: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    max-width: 355px;
+}
+
+section ul li {
+    flex-direction: column;
+    display: flex;
+}
+
+section ul li:not(:last-child) {
+    /* padding-right: 63px; */
+    /* margin-right: 63px;
+    */
+    /* background-color: white;
+    color: black; */
+}
+
+ul li span:first-child {
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+ul li span:last-child {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+div.bg {
+    background-image: url(./images/image-header-desktop.png);
+    height: 450px;
+    max-width: 540px;
+    width: 100%;
+}
